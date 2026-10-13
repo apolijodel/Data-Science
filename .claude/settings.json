@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m nbconvert --to notebook --execute --inplace notebook/health_insurance_etl.ipynb)",
+      "Bash(python -c ' *)",
+      "Bash(\"./.venv/Scripts/python.exe\" -m pip install --upgrade pip pandas numpy scikit-learn matplotlib seaborn scipy joblib ipykernel nbconvert sqlalchemy pymysql)",
+      "Bash(\"./.venv/Scripts/python.exe\" -m ipykernel install --user --name=health-insurance --display-name=\"Health Insurance \\(.venv\\)\")",
+      "Bash(python \"C:/Users/acer/AppData/Local/Temp/claude/d--Practice/67b1116e-9999-4de9-8512-733a4ec417cf/scratchpad/build_notebooks.py\")",
+      "Bash(\"./.venv/Scripts/python.exe\" -m nbconvert --to notebook --execute --inplace notebook/eda_health_insurance.ipynb)",
+      "Bash(\"./.venv/Scripts/python.exe\" -m nbconvert --to notebook --execute --inplace notebook/stats_analysis_health_insurance.ipynb)",
+      "Bash(./.venv/Scripts/python.exe -c ' *)"
+    ]
+  }
+}

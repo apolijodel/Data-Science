@@ -1,0 +1,17 @@
+# Pinned to the versions this project was last run and verified with (.venv, Python 3.14).
+# scikit-learn and joblib matter most: app/health_insurance_model.joblib is only guaranteed to
+# load under the scikit-learn version that trained it. If you upgrade them, re-run
+# notebook/health_insurance_model.ipynb to regenerate the model before starting the app.
+pandas==3.0.5
+numpy==2.5.3
+SQLAlchemy==2.0.52
+PyMySQL==1.2.0
+scikit-learn==1.9.1
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+scipy==1.18.1
+streamlit==1.64.0
+ipykernel==7.3.0
+nbconvert==7.17.1
+nbformat==5.11.1

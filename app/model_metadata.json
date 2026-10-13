@@ -1,0 +1,35 @@
+{
+  "model": "Hist Gradient Boosting (tuned)",
+  "best_params": {
+    "model__max_leaf_nodes": 31,
+    "model__max_iter": 150,
+    "model__learning_rate": 0.03
+  },
+  "feature_columns": [
+    "Gender",
+    "Age",
+    "Driving_License",
+    "Region_Code",
+    "Previously_Insured",
+    "Vehicle_Age",
+    "Vehicle_Damage",
+    "Annual_Premium",
+    "Policy_Sales_Channel",
+    "Vintage"
+  ],
+  "baseline_cv_roc_auc": {
+    "Hist Gradient Boosting": 0.8566,
+    "Random Forest": 0.8551,
+    "Decision Tree": 0.8467,
+    "Logistic Regression": 0.8441,
+    "Linear Regression": 0.8415,
+    "K-Nearest Neighbors": 0.8237
+  },
+  "validation_roc_auc": 0.8576,
+  "validation_pr_auc": 0.3673,
+  "f1_optimal_threshold": 0.229,
+  "threshold_selection": "F1-optimal on 3-fold out-of-fold predictions of the training split",
+  "validation_f1_at_threshold": 0.4601,
+  "validation_precision_at_threshold": 0.3313,
+  "validation_recall_at_threshold": 0.7528
+}
